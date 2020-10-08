@@ -1,6 +1,6 @@
 from typing import Union
 
-def wasteland_sort(landmarks: list, reverse: bool) -> list:
+def sort(landmarks: list, reverse: bool) -> list:
     """ O(m+n) integer sorting algorithm developed with the intent of providing better performance than widely-used sorts 
     in terms of both memory and time for integer sorting. Currently runs in O(m_n) time and O(max(m, n)) space.
     

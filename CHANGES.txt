@@ -1,0 +1,2 @@
+1.0.1: Changed package name to fit PEP8 -- wasteland-sort -> wasteland_sort
+1.1.0: Changed package name and sort function name to be more user friendly. Included instructions in README.md 

@@ -4,17 +4,17 @@ import pathlib
 
 HERE = pathlib.Path(__file__).parent
 
-README = (HERE / "README").read_text()
+README = (HERE / "README.md").read_text()
 
 setuptools.setup(
     name="wasteland_sort",
-    version="1.0.0",
+    version="1.1.0",
     author="Markian Hromiak",
     author_email="markian.hromiak@yahoo.com",
     description="Fully tested and documented version of the Wasteland sorting algorithm",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/MHromiak/wasteland-sort.git",
+    url="https://github.com/MHromiak/wasteland_sort.git",
     packages=setuptools.find_packages(exclude=("test",)),
     classifiers=[
         "Programming Language :: Python :: 3",
