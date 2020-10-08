@@ -3,17 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to wasteland_sort's documentation!
+Welcome to wasteland-sort's documentation!
 ==========================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   other_sorts
-   sort_compare
-   visualize
-   stats
    wasteland_sort
 
 Indices and tables
